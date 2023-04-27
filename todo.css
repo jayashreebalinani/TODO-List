@@ -1,0 +1,71 @@
+.div{
+    height: 40px;
+    width:500px;
+    background-color: rgb(178, 186, 186);
+    font-size: 20px;
+    
+   
+}
+.header{
+    height: 140px;
+    width:500px;
+    background-color: rgb(8, 35, 74);
+    border-radius: 5px;
+}
+input{
+   
+    margin-left: 54px;
+    height: 30px;
+    width:300px;
+    font-size: 17px;
+    background-color: rgb(185, 191, 212);
+}
+.button{
+    height: 35px;
+    width: 70px;
+    background-color: rgb(255, 255, 255);
+    font-weight: 400;
+
+}
+.total{
+    border:1px solid black ;
+}
+h1{
+    padding-top: 15px;
+    text-align: center;
+    font-weight: 1400;
+    color: white;
+}
+
+
+.edit{
+   
+   
+   height: 40px;
+   width: 50px;
+   background-color: rgb(129, 137, 215);
+   font-weight: 600;
+   border: 1px solid white;
+   
+
+}
+.delete
+{
+    
+    height: 40px;
+    width: 50px;
+    font-weight: 600;
+    background-color: rgb(219, 133, 150);
+    border: 1px solid white;
+    display:inline;
+    
+}
+.update
+{
+    
+    height: 40px;
+    width: 50px;
+    border: 1px solid white;
+    background-color: rgb(127, 224, 177);
+
+}
