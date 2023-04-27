@@ -1,69 +1,4 @@
-// var div
-// var data
-// var editbut
-// var delbut
-// var upbut
-// function dis()
-// {
-//     data = document.getElementById("show").value
-    
-//         div = document.createElement("div")
-//         div.setAttribute("class","listt")
-//         let br = document.createElement("br")
-//         document.body.append(br)
-        
-//         delbut = document.createElement("button")
-//         delbut.innerText="delete"
-//         delbut.addEventListener("click",delaction)
-//         delbut.setAttribute("class","del")
-//        // delbut.setAttribute("id","del1")
-       
-//         editbut = document.createElement("button")
-//         editbut.innerText="edit"
-//         editbut.addEventListener("click",editaction)
-//         editbut.setAttribute("id","editt")
-//         editbut.setAttribute("class","edit")
-//         div.append(data)
 
-//     for(var i = 0; i < data.length;i++)
-//     { 
-//     div.setAttribute("id","list"+i)
-//     delbut.setAttribute("id","del"+i)
-//     editbut.setAttribute("id","editt"+i)
-    
-// function editaction()
-// {
-   
-//     upbut = document.createElement("button")
-//     upbut.innerText="update"
-//     upbut.addEventListener("click",updateaction)
-//     upbut.setAttribute("id","up")
-//     div.append(upbut)
-
-//     var editdata = document.getElementById("list"+i).innerText
-//     document.getElementById("show").value=editdata
-
-// }  
-// function delaction()
-// {
-//     var element = document.getElementById("del")
-//     element.remove()
-// }
-// function updateaction()
-// {
-//     var updatedata = document.getElementById("show").innerText
-//     document.getElementById("list"+i).innerText=updatedata
-
-// }
-// div.append(delbut)
-// div.append(editbut)
-// document.body.append(div)
-
-
-// }
-
-
-// }
 var count = 1
 function display()
 {
@@ -124,9 +59,6 @@ function editaction()
 
     document.activeElement.style.display = 'none'
 
-    // var showelement = document.getElementById('update_'+currentid)
-    // showelement.style.display = 'none'
-
 }
 
 function updateaction()
@@ -136,9 +68,6 @@ function updateaction()
 
     var updateele = document.getElementById('element_'+currentid)
     updateele.style.display = 'none'
-
-    // var editelement = document.getElementById('element_'+currentid)
-    // editelement.style.display = 'none'
 
     var showelement = document.getElementById('span_'+currentid)
     showelement.style.display = 'inline-block'
