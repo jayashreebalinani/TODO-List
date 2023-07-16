@@ -1,5 +1,5 @@
 
-var count = 0
+var count = 
 function display()
 {
     var break1 = document.createElement("br")
