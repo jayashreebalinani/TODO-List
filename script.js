@@ -1,6 +1,6 @@
 
 var count = 1
-function display(e)
+function display()
 {
     var break1 = document.createElement("br")
     var data = document.getElementById("show").value
